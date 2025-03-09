@@ -5,25 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portifólio - Marcos André</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/style.css">
 
 
   </head>
   <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
+     <!-- <section>-
+        <div class="container">
+            <div class="row mt-2 justify-content-md-center">
                 
+                <div class="col-md-8">
+                    <img src="https://picsum.photos/750/200" alt="Banner-principal">
+                </div> -->
+
+    <div class="min-vh-100 bg-white">
+        <div class="container py-4">
+            <div class="card profile-card mx-auto">
+                <!-- Profile Header -->
+                <div class="profile-header">
+                    <div class="cover-image"></div>
+                    <div class="px-4 pb-4">
+                        <div class="profile-info">
+                            <div class="avatar">
+                                <img src="/IMG/Foto-MarcosReymond.jpeg" alt="Marcos André" class="profile-avatar">
+                            </div>
+                            <div class="profile-details">
+                                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-3">
+                                    <div>
+                                        <h1 class="profile-name">Marcos André</h1>
+                                        <p class="profile-tagline">Dê vida às ideias com código! 🚀</p>
+                                    </div>
+                                    <button class="btn btn-follow ms-md-auto">Seguir</button>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="profile-bio">
+                                        Engenheiro Web Sênior. Desenvolvedor Criativo. Criador de Conteúdo.
+                                        Especialista Caprichoso. Palestrante Internacional. Ex-Google.
+                                    </p>
+                                </div>
+                                <!-- Email Subscription -->
+                                <div class="mt-3">
+                                    <form id="subscriptionForm" class="subscription-form">
+                                        <div class="input-group">
+                                            <input type="email" class="form-control" placeholder="Endereço de email" required>
+                                            <button class="btn btn-subscribe" type="submit">Inscreva-se!</button>
+                                        </div>
+                                        <small class="form-text text-muted">Sem spam. Cancele a assinatura a qualquer momento.</small>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Tabs -->
+                <ul class="nav nav-tabs" id="profileTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#alimentar">Linha do tempo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#sobre">Últimos projetos</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#sobre">Experiências</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#sobre">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#contente">Sobre</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#livro">Registros de visitas</a>
+                    </li>-->
+                </ul>
+
+                <!-- Tab Content -->
+                <div class="tab-content p-4">
+                    <div class="tab-pane fade show active" id="alimentar">
+                        <div class="content-card">
+                            <p>
+                                Quando você faz muito conteúdo, é difícil manter o controle de tudo. Aqui estão
+                                alguns links para várias coisas que eu criei ou com as quais estive envolvido.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sobre">
+                        <h2>Sobre Mim</h2>
+                        <p>Conheça mais sobre minha jornada profissional.</p>
+                    </div>
+                    <div class="tab-pane fade" id="contente">
+                        <h2>Projetos</h2>
+                        <p>Confira meus projetos mais recentes.</p>
+                    </div>
+                    <div class="tab-pane fade" id="visitas">
+                        <h2>Livro de Visitas</h2>
+                        <p>Deixe seu comentário ou feedback.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-3"></div>
         </div>
     </div>
 
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
+
