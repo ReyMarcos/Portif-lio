@@ -2,18 +2,17 @@
     border: solid 1px red;
 }*/
 
-/* Profile Card Styles */
-.profile-card {
+
+.card-perfil {
     max-width: 1000px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Cover Image */
-.cover-image {
+.foto-capa {
     height: 160px;
-    background-image: url(https://picsum.photos/750/150);
+    background-image: url(/IMG/Banner.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,19 +20,17 @@
 
 }
 
-/* Profile Information */
-.profile-info {
+.perfil-info {
     margin-top: -48px;
     position: relative;
 }
 
-/* Avatar */
 .avatar {
     display: inline-block;
     margin-bottom: 1rem;
 }
 
-.profile-avatar {
+.perfil-avatar {
     width: 96px;
     height: 96px;
     border-radius: 50%;
@@ -41,54 +38,50 @@
     object-fit: cover;
 }
 
-/* Profile Text */
-.profile-name {
+.perfil-name {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.25rem;
 }
 
-.profile-tagline {
+.frase-destaque {
     color: #666;
     font-size: 0.875rem;
     margin-bottom: 0.5rem;
 }
 
-.profile-bio {
+.perfil-bio {
     color: #444;
     margin-bottom: 1rem;
 }
 
-/* Follow Button */
-.btn-follow {
+.btn-seguir {
     background-color: #E91E63;
     color: white;
     padding: 0.5rem 1.5rem;
     border: none;
 }
 
-.btn-follow:hover {
+.btn-seguir:hover {
     background-color: #D81B60;
     color: white;
 }
 
-/* Subscription Form */
-.subscription-form {
+.inscricao-form {
     max-width: 500px;
 }
 
-.btn-subscribe {
+.btn-inscricao {
     background-color: #E91E63;
     color: white;
     border: none;
 }
 
-.btn-subscribe:hover {
+.btn-inscricao:hover {
     background-color: #D81B60;
     color: white;
 }
 
-/* Navigation Tabs */
 .nav-tabs {
     border-bottom: 1px solid #dee2e6;
     padding: 0 1.5rem;
@@ -107,25 +100,54 @@
     background: none;
 }
 
-/* Content Card */
-.content-card {
+.conteudo-card {
     background-color: #f8f9fa;
     padding: 1rem;
     border-radius: 8px;
 }
 
-.content-card p {
+.conteudo-card p {
     color: #666;
     margin-bottom: 0;
 }
 
-/* Responsive Adjustments */
+.experience-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.experience-header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.instituicao-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 @media (max-width: 768px) {
-    .profile-info {
+    .perfil-info {
         margin-top: -32px;
     }
     
-    .profile-avatar {
+    .perfil-avatar {
         width: 80px;
         height: 80px;
     }
@@ -139,3 +161,4 @@
         margin-right: 0.5rem;
     }
 }
+

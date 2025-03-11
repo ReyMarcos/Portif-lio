@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Handle subscription form submission
-    const subscriptionForm = document.getElementById('subscriptionForm');
+    const inscricaoForm = document.getElementById('inscricaoForm');
     
-    if (subscriptionForm) {
-        subscriptionForm.addEventListener('submit', function(e) {
+    if (inscricaoForm) {
+        inscricaoForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
             const emailInput = this.querySelector('input[type="email"]');
             const email = emailInput.value;
             
             // Simulate form submission
-            console.log('Subscription email:', email);
+            console.log('Inscrição de email:', email);
             
             // Show success message (you can customize this)
             alert('Inscrição realizada com sucesso!');
