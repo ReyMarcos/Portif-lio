@@ -142,6 +142,38 @@
     overflow: hidden;
 }
 
+.project-image {
+    margin: 15px 0;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+strong.meta-item {
+    font-style: oblique;
+    font-weight: 500;
+    list-style-position: inside;
+    font-size: 12px;
+    color: #E91E63;
+}
+
+a.meta-item {
+    font-weight: 500;
+    list-style-position: inside;
+    font-size: 12px;
+    color: #E91E63;
+}
+
+a.meta-item:hover {
+    font-style: inline;
+    color: #E91E63;
+}
+
+.project-content h3{
+    font-size: 21px;
+}
+
 @media (max-width: 768px) {
     .perfil-info {
         margin-top: -32px;
@@ -159,6 +191,7 @@
     .nav-tabs .nav-link {
         padding: 0.75rem;
         margin-right: 0.5rem;
+        
     }
 }
 
