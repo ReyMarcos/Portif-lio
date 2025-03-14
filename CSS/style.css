@@ -12,7 +12,7 @@
 
 .foto-capa {
     height: 160px;
-    background-image: url("./IMG/Banner.jpeg");
+    background-image: url("../IMG/Banner.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
